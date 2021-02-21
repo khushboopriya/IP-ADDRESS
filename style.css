@@ -1,0 +1,26 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1504707748692-419802cf939d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=730&q=80");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox{
+    width: 40vw;
+    height: 20vh;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    font-size: 5vw;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    padding: 4vh;
+    margin-top: 0vh;
+    
+  }

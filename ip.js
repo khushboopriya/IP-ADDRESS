@@ -11,5 +11,5 @@ const promise = fetch(url);
 promise
 .then((response)=>response.json())
     .then((json_response)=>{
-        ip.value = json_response.ip;
+        ip.value = "   "+ json_response.ip;
 });
